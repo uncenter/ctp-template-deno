@@ -36,15 +36,20 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
+1. Download your preferred flavor from [`themes/`](./themes/).
 2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
 3. Select the downloaded flavor file.
 
 <!-- The FAQ section is optional. Remove if needed.-->
+
 ## 🙋 FAQ
 
 - Q: **_"How can I do X?"_**\
   A: ...
+
+## Contributing
+
+This repository uses [Deno](https://deno.com/) to generate theme files. Edit the `build.ts` script, and run either `deno build.ts` or `deno task build` to update the files in `themes/`.
 
 ## 💝 Thanks to
 

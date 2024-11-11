@@ -1,0 +1,21 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@catppuccin/palette@^1.7.1": "1.7.1",
+    "jsr:@std/path@^1.0.8": "1.0.8"
+  },
+  "jsr": {
+    "@catppuccin/palette@1.7.1": {
+      "integrity": "91238ec1bb04420196f27422ec75bc53aaece6d4896628f053aa8335502316f1"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@catppuccin/palette@^1.7.1",
+      "jsr:@std/path@^1.0.8"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "deno run -A build.ts"
+  },
+  "imports": {
+    "@catppuccin/palette": "jsr:@catppuccin/palette@^1.7.1",
+    "@std/path": "jsr:@std/path@^1.0.8"
+  }
+}
